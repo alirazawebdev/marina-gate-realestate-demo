@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marina Gate Properties | Dubai's Trusted Real Estate Brokerage</title>
+<meta name="description" content="Marina Gate Properties — Dubai's trusted real estate brokerage. Handpicked apartments, villas and penthouses for sale and rent in Dubai Marina, Downtown Dubai, Palm Jumeirah & more. WhatsApp +971 50 123 4567.">
+<meta property="og:title" content="Marina Gate Properties | Dubai's Trusted Real Estate Brokerage">
+<meta property="og:description" content="Handpicked apartments and villas across Dubai Marina, Downtown, Palm Jumeirah and beyond — for buyers, sellers and investors.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Marina Gate Properties","slogan":"Dubai's Trusted Real Estate Brokerage","telephone":"+971 50 123 4567","email":"hello@marinagateproperties.com","address":{"@type":"PostalAddress","streetAddress":"Office 2401, Marina Plaza","addressLocality":"Dubai Marina, Dubai","addressCountry":"AE"},"areaServed":"Dubai, United Arab Emirates"}
+</script>
+<style>
+:root{
+  --navy:#0A1A2F; --navy2:#0E2240; --navy3:#132a47;
+  --gold:#C9A227; --gold-d:#a8861d; --gold-l:#e3c766;
+  --ivory:#F7F4EC; --white:#ffffff;
+  --muted:#8a8f98; --muted-d:#5b6068;
+  --line:#e7e0cf; --radius:14px;
+  --serif:'Playfair Display',Georgia,serif; --sans:'Inter',system-ui,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--navy);background:var(--ivory);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:0 auto}
+section{padding:96px 0}
+.eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2}
+.sec-head{text-align:center;max-width:740px;margin:0 auto 56px}
+.sec-head h2{font-size:clamp(30px,4vw,44px);color:var(--navy);margin-bottom:14px}
+.sec-head h2::after{content:"";display:block;width:64px;height:2px;background:var(--gold);margin:18px auto 0}
+.sec-head p{color:var(--muted-d);font-size:16.5px;margin-top:14px}
+.dark{background:var(--navy);color:var(--ivory)}
+.dark .sec-head h2{color:var(--ivory)}
+.dark .sec-head p{color:#b9c2d0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 32px;border-radius:999px;font-weight:600;font-size:15px;cursor:pointer;border:2px solid transparent;transition:transform .25s,box-shadow .25s,background .25s;font-family:var(--sans)}
+.btn-gold{background:var(--gold);color:#141414}
+.btn-gold:hover{background:var(--gold-d);transform:translateY(-2px);box-shadow:0 12px 24px rgba(201,162,39,.35)}
+.btn-outline{border-color:rgba(255,255,255,.7);color:#fff;background:rgba(255,255,255,.06);backdrop-filter:blur(4px)}
+.btn-outline:hover{background:rgba(255,255,255,.16);transform:translateY(-2px)}
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:background .3s,box-shadow .3s,padding .3s;padding:20px 0}
+header .container{display:flex;align-items:center;justify-content:space-between;gap:20px}
+header.scrolled{background:rgba(10,26,47,.96);box-shadow:0 4px 24px rgba(0,0,0,.4);padding:10px 0;backdrop-filter:blur(8px)}
+.wordmark{display:flex;flex-direction:column;line-height:1;flex-shrink:0}
+.wordmark .wm-main{font-family:var(--serif);font-size:21px;font-weight:700;letter-spacing:2px;color:var(--gold)}
+.wordmark .wm-sub{font-size:10px;font-weight:600;letter-spacing:6px;color:#f0ead8;margin-top:4px}
+nav.main{display:flex;align-items:center;gap:26px}
+nav.main a.nl{color:#e8e6e0;font-size:13.5px;font-weight:500;letter-spacing:.3px;white-space:nowrap;transition:color .2s}
+nav.main a.nl:hover{color:var(--gold)}
+.btn-nav{background:var(--gold);color:#141414!important;padding:11px 22px;border-radius:999px;font-weight:700;font-size:13.5px;white-space:nowrap;transition:background .2s}
+.btn-nav:hover{background:var(--gold-d)}
+.burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{display:block;width:26px;height:2px;background:#fff;margin:6px 0;transition:.3s}
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:140px 0 130px;overflow:hidden}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;animation:heroDrift 40s ease-in-out infinite alternate}
+@keyframes heroDrift{from{transform:scale(1)}to{transform:scale(1.09)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(6,14,26,.78) 0%,rgba(6,14,26,.55) 42%,rgba(6,14,26,.82) 100%)}
+.hero-inner{position:relative;z-index:2;max-width:880px;padding:0 4%}
+.hero .eyebrow{color:var(--gold-l)}
+.hero h1{font-size:clamp(42px,6.6vw,80px);color:#fff;margin:10px 0 20px;text-shadow:0 2px 30px rgba(0,0,0,.55)}
+.hero p.lead{font-size:clamp(16px,2vw,20px);color:#ece9df;max-width:660px;margin:0 auto 38px}
+.hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+/* ---------- stats ---------- */
+.stats{background:var(--navy);padding:0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:54px 0;text-align:center}
+.stat .n{font-family:var(--serif);font-size:clamp(30px,3.4vw,44px);color:var(--gold);font-weight:700}
+.stat .t{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#aeb8c6;margin-top:8px}
+/* ---------- search ---------- */
+.search-wrap{position:relative;z-index:5;margin-top:-58px}
+.search-card{background:#fff;border-radius:18px;box-shadow:0 24px 60px rgba(10,26,47,.22);padding:24px 28px;border:1px solid var(--line)}
+.pills{display:flex;gap:10px;margin-bottom:18px}
+.pill{padding:10px 26px;border-radius:999px;border:1.5px solid var(--line);background:#fbfaf7;font-size:14px;font-weight:600;color:var(--muted-d);cursor:pointer;transition:all .2s;font-family:var(--sans)}
+.pill.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.pill:not(.active):hover{border-color:var(--gold);color:var(--navy)}
+.search-fields{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:16px;align-items:end}
+.field label{display:block;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted-d);margin-bottom:8px}
+.field select{width:100%;padding:14px 16px;border:1.5px solid var(--line);border-radius:10px;font-size:15px;font-family:var(--sans);background:#fbfaf7;color:var(--navy);cursor:pointer}
+.field select:focus{outline:none;border-color:var(--gold)}
+#resultMsg{font-size:13.5px;color:var(--muted-d);display:none;margin-top:14px}
+#resultMsg.show{display:block}
+#resetFilters{display:none;margin-left:12px;color:var(--gold-d);font-weight:600;cursor:pointer;background:none;border:0;font-size:13.5px;font-family:var(--sans)}
+#resetFilters.show{display:inline}
+/* ---------- properties ---------- */
+.prop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.prop-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--line);transition:transform .3s,box-shadow .3s;display:flex;flex-direction:column}
+.prop-card:hover{transform:translateY(-8px);box-shadow:0 24px 50px rgba(10,26,47,.16)}
+.prop-media{position:relative;aspect-ratio:4/3;overflow:hidden}
+.prop-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.prop-card:hover .prop-media img{transform:scale(1.06)}
+.badge{position:absolute;top:14px;font-size:11.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:7px 14px;border-radius:999px}
+.badge.sale{left:14px;background:var(--gold);color:#141414}
+.badge.rent{left:14px;background:var(--navy);color:#fff}
+.badge.ref{right:14px;background:rgba(10,26,47,.72);color:#fff;backdrop-filter:blur(4px);letter-spacing:.5px}
+.prop-body{padding:24px;display:flex;flex-direction:column;gap:7px;flex:1}
+.prop-body h3{font-size:20px}
+.prop-loc{font-size:13.5px;color:var(--muted-d)}
+.prop-specs{font-size:13.5px;color:var(--muted-d)}
+.prop-price{font-size:17px;font-weight:700;color:var(--gold-d)}
+.prop-price .per{font-size:13px;font-weight:500;color:var(--muted-d)}
+.prop-body .btn{margin-top:12px;padding:12px;width:100%;font-size:14px}
+/* ---------- buy/rent split ---------- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.panel{background:var(--navy2);border:1px solid rgba(201,162,39,.28);border-radius:18px;padding:48px 42px;text-align:center}
+.panel h3{font-size:30px;color:#fff;margin-bottom:6px}
+.panel .tag{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}
+.panel ul{list-style:none;margin:26px 0 32px;text-align:left}
+.panel ul li{font-size:15px;color:#c7cfdb;padding:9px 0 9px 30px;position:relative;border-bottom:1px solid rgba(255,255,255,.07)}
+.panel ul li:last-child{border-bottom:0}
+.panel ul li::before{content:"✓";position:absolute;left:4px;color:var(--gold);font-weight:700}
+/* ---------- areas ---------- */
+#areas{background:#fff}
+.area-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.area-card{position:relative;border-radius:16px;overflow:hidden;aspect-ratio:3/4;display:flex;align-items:flex-end;color:#fff;min-height:340px}
+.area-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.area-card:hover img{transform:scale(1.07)}
+.area-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,14,26,.05) 30%,rgba(6,14,26,.88) 100%)}
+.area-info{position:relative;z-index:1;padding:26px;width:100%}
+.area-info h3{font-size:23px;margin-bottom:6px}
+.area-info p{font-size:13.5px;color:#d6dae2;margin-bottom:10px}
+.area-info .from{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold-l)}
+/* ---------- services ---------- */
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:36px 28px;text-align:center;transition:transform .3s,box-shadow .3s}
+.svc:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(10,26,47,.1)}
+.svc .num{font-family:var(--serif);font-size:15px;color:var(--gold);letter-spacing:2px;font-weight:700}
+.svc h3{font-size:21px;margin:12px 0 10px}
+.svc p{font-size:14.5px;color:var(--muted-d)}
+/* ---------- agents ---------- */
+.agent-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.agent-card{background:var(--navy2);border:1px solid rgba(201,162,39,.22);border-radius:16px;overflow:hidden;text-align:center;transition:transform .3s}
+.agent-card:hover{transform:translateY(-6px)}
+.agent-card img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.agent-body{padding:28px 24px}
+.agent-body h3{font-size:22px;color:#fff}
+.agent-body .role{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:700;margin:8px 0 12px}
+.agent-body p{font-size:13.5px;color:#aeb8c6}
+.agent-body .deals{display:inline-block;margin-top:14px;font-size:13px;font-weight:700;color:var(--gold-l);border:1px solid rgba(201,162,39,.4);border-radius:999px;padding:6px 16px}
+/* ---------- testimonials ---------- */
+#testimonials{background:#fff}
+.testi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.testi{background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:34px 30px;display:flex;flex-direction:column;gap:14px}
+.testi .stars{color:var(--gold);letter-spacing:3px;font-size:15px}
+.testi p{font-size:15.5px;color:#3c4046;font-style:italic;flex:1}
+.testi .who{font-size:14px;font-weight:700}
+.testi .who span{display:block;font-weight:400;color:var(--muted-d);font-size:12.5px}
+/* ---------- cta ---------- */
+#contact{background:linear-gradient(135deg,#081426,#12294a);color:#fff;text-align:center}
+#contact h2{font-size:clamp(30px,4vw,46px);margin-bottom:14px}
+#contact h2::after{content:"";display:block;width:64px;height:2px;background:var(--gold);margin:18px auto 0}
+#contact p{color:#c9d2e0;max-width:620px;margin:14px auto 34px;font-size:16.5px}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
+.cta-meta{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;font-size:15px;color:#dfe3ea}
+.cta-meta a:hover{color:var(--gold)}
+/* ---------- footer ---------- */
+footer{background:#060f1e;color:#a7b0bf;padding:64px 0 0;font-size:14.5px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:48px}
+.foot-brand .wordmark{margin-bottom:16px}
+.foot-brand p{max-width:330px}
+footer h4{color:#fff;font-size:14px;margin-bottom:18px;letter-spacing:1.5px;text-transform:uppercase;font-family:var(--sans);font-weight:700}
+.foot-links{list-style:none}
+.foot-links li{margin-bottom:10px}
+.foot-links a:hover{color:var(--gold)}
+.foot-contact{list-style:none}
+.foot-contact li{margin-bottom:10px}
+.foot-contact a:hover{color:var(--gold)}
+.rera{margin-top:18px;font-size:12.5px;color:#7c8798;border:1px solid rgba(201,162,39,.3);border-radius:10px;padding:10px 14px;display:inline-block}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding:22px 0;text-align:center;font-size:13px;color:#7c8798}
+/* ---------- wa float ---------- */
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:90;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(37,211,102,.45);transition:transform .25s}
+.wa-float:hover{transform:scale(1.1)}
+.wa-float svg{width:32px;height:32px;fill:#fff}
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+/* ---------- responsive ---------- */
+@media(max-width:1020px){
+  nav.main{gap:16px}
+  nav.main a.nl{font-size:12.5px}
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .area-grid{grid-template-columns:repeat(2,1fr)}
+  .prop-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:34px}
+}
+@media(max-width:860px){
+  .burger{display:block}
+  nav.main{position:fixed;top:0;right:-100%;width:min(320px,80vw);height:100dvh;background:#0b1a30;flex-direction:column;align-items:flex-start;padding:90px 34px 34px;gap:20px;transition:right .35s;box-shadow:-10px 0 40px rgba(0,0,0,.4)}
+  nav.main.open{right:0}
+  nav.main a.nl{font-size:16px}
+  .search-fields{grid-template-columns:1fr 1fr}
+  .search-fields .btn{grid-column:1/-1}
+  .split,.testi-grid{grid-template-columns:1fr}
+  .agent-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto}
+  .foot-grid{grid-template-columns:1fr}
+  section{padding:72px 0}
+}
+@media(max-width:600px){
+  .prop-grid,.svc-grid,.area-grid{grid-template-columns:1fr}
+  .search-fields{grid-template-columns:1fr}
+  .hero-btns .btn{width:100%}
+  .pills{flex-wrap:wrap}
+  .pill{flex:1;text-align:center;padding:10px 8px}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero video{animation:none}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="container">
+    <a class="wordmark" href="#home" aria-label="Marina Gate Properties home">
+      <span class="wm-main">MARINA GATE</span>
+      <span class="wm-sub">PROPERTIES</span>
+    </a>
+    <nav class="main" id="mainNav" aria-label="Main navigation">
+      <a class="nl" href="#properties">Properties</a>
+      <a class="nl" href="#buy-rent">Buy / Rent</a>
+      <a class="nl" href="#areas">Areas</a>
+      <a class="nl" href="#agents">Agents</a>
+      <a class="nl" href="#contact">Contact</a>
+      <a class="btn-nav" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20discuss%20a%20property." target="_blank" rel="noopener">WhatsApp Us</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <video id="heroVideo" autoplay muted loop playsinline preload="auto" poster="assets/img/hero-poster.jpg">
+    <source id="heroSource" src="assets/video/hero-desktop.mp4" type="video/mp4">
+  </video>
+  <div class="hero-inner">
+    <span class="eyebrow">Dubai&rsquo;s Trusted Real Estate Brokerage</span>
+    <h1>Find Your Address<br>in Dubai.</h1>
+    <p class="lead">Handpicked apartments and villas across Dubai Marina, Downtown, Palm Jumeirah and beyond &mdash; for buyers, sellers and investors.</p>
+    <div class="hero-btns">
+      <a class="btn btn-gold" href="#properties">Browse Properties</a>
+      <a class="btn btn-outline" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20discuss%20a%20property." target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat reveal"><div class="n">500+</div><div class="t">Curated Listings</div></div>
+      <div class="stat reveal"><div class="n">12</div><div class="t">Communities Covered</div></div>
+      <div class="stat reveal"><div class="n">98%</div><div class="t">Client Satisfaction</div></div>
+      <div class="stat reveal"><div class="n">AED 1.2B+</div><div class="t">Sales Closed</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="search-wrap">
+  <div class="container">
+    <div class="search-card reveal">
+      <div class="pills" role="group" aria-label="Buy or rent">
+        <button type="button" class="pill active" data-val="all">All</button>
+        <button type="button" class="pill" data-val="buy">Buy</button>
+        <button type="button" class="pill" data-val="rent">Rent</button>
+      </div>
+      <form id="searchForm" aria-label="Property search">
+        <div class="search-fields">
+          <div class="field">
+            <label for="fType">Property Type</label>
+            <select id="fType">
+              <option value="all">All Types</option>
+              <option value="apartment">Apartment</option>
+              <option value="villa">Villa</option>
+              <option value="penthouse">Penthouse</option>
+              <option value="townhouse">Townhouse</option>
+              <option value="studio">Studio</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fArea">Area</label>
+            <select id="fArea">
+              <option value="all">All Areas</option>
+              <option value="dubai-marina">Dubai Marina</option>
+              <option value="downtown-dubai">Downtown Dubai</option>
+              <option value="palm-jumeirah">Palm Jumeirah</option>
+              <option value="jumeirah-village-circle">Jumeirah Village Circle</option>
+              <option value="business-bay">Business Bay</option>
+              <option value="jumeirah-beach-residence">Jumeirah Beach Residence</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fBeds">Bedrooms</label>
+            <select id="fBeds">
+              <option value="all">Any</option>
+              <option value="0">Studio</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4plus">4+</option>
+            </select>
+          </div>
+          <button class="btn btn-gold" type="submit">Search</button>
+        </div>
+      </form>
+      <p id="resultMsg" role="status"></p>
+      <button id="resetFilters" type="button">Reset filters</button>
+    </div>
+  </div>
+</div>
+
+<section id="properties">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Handpicked For You</span>
+      <h2>Featured Properties</h2>
+      <p>A curated selection of Dubai&rsquo;s finest homes &mdash; verified listings across the city&rsquo;s most sought-after communities.</p>
+    </div>
+    <div class="prop-grid" id="propGrid">
+
+      <article class="prop-card reveal" data-purpose="buy" data-type="apartment" data-area="dubai-marina" data-beds="1">
+        <div class="prop-media">
+          <span class="badge sale">For Sale</span><span class="badge ref">MGP-001</span>
+          <img src="assets/img/prop-01.jpg" alt="Bright 1 bedroom apartment with full marina view in Dubai Marina" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Bright 1BR with Full Marina View</h3>
+          <p class="prop-loc">Dubai Marina, Dubai</p>
+          <p class="prop-specs">1 Bed &middot; 2 Bath &middot; 780 sqft</p>
+          <p class="prop-price">AED 1,250,000</p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20MGP-001%20%28Bright%201BR%20with%20Full%20Marina%20View%2C%20AED%201%2C250%2C000%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="prop-card reveal" data-purpose="buy" data-type="apartment" data-area="downtown-dubai" data-beds="2">
+        <div class="prop-media">
+          <span class="badge sale">For Sale</span><span class="badge ref">MGP-002</span>
+          <img src="assets/img/prop-02.jpg" alt="Elegant 2 bedroom apartment facing Burj Khalifa in Downtown Dubai" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Elegant 2BR Facing Burj Khalifa</h3>
+          <p class="prop-loc">Downtown Dubai, Dubai</p>
+          <p class="prop-specs">2 Bed &middot; 3 Bath &middot; 1,350 sqft</p>
+          <p class="prop-price">AED 2,400,000</p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20MGP-002%20%28Elegant%202BR%20Facing%20Burj%20Khalifa%2C%20AED%202%2C400%2C000%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="prop-card reveal" data-purpose="buy" data-type="penthouse" data-area="dubai-marina" data-beds="3">
+        <div class="prop-media">
+          <span class="badge sale">For Sale</span><span class="badge ref">MGP-006</span>
+          <img src="assets/img/prop-06.jpg" alt="Sky-high penthouse with 360 degree views in Dubai Marina" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Sky-High Penthouse, 360&deg; Views</h3>
+          <p class="prop-loc">Dubai Marina, Dubai</p>
+          <p class="prop-specs">3 Bed &middot; 5 Bath &middot; 4,100 sqft</p>
+          <p class="prop-price">AED 8,900,000</p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20MGP-006%20%28Sky-High%20Penthouse%2C%20360%20Views%2C%20AED%208%2C900%2C000%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="prop-card reveal" data-purpose="buy" data-type="villa" data-area="palm-jumeirah" data-beds="4">
+        <div class="prop-media">
+          <span class="badge sale">For Sale</span><span class="badge ref">MGP-004</span>
+          <img src="assets/img/prop-04.jpg" alt="Signature 4 bedroom beachfront villa on Palm Jumeirah" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Signature 4BR Beachfront Villa</h3>
+          <p class="prop-loc">Palm Jumeirah, Dubai</p>
+          <p class="prop-specs">4 Bed &middot; 6 Bath &middot; 5,200 sqft</p>
+          <p class="prop-price">AED 14,500,000</p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20MGP-004%20%28Signature%204BR%20Beachfront%20Villa%2C%20AED%2014%2C500%2C000%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="prop-card reveal" data-purpose="rent" data-type="apartment" data-area="business-bay" data-beds="2">
+        <div class="prop-media">
+          <span class="badge rent">For Rent</span><span class="badge ref">MGP-005</span>
+          <img src="assets/img/prop-05.jpg" alt="Stylish 2 bedroom apartment for rent in Business Bay" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Stylish 2BR in the Business Hub</h3>
+          <p class="prop-loc">Business Bay, Dubai</p>
+          <p class="prop-specs">2 Bed &middot; 3 Bath &middot; 1,180 sqft</p>
+          <p class="prop-price">AED 85,000 <span class="per">/year</span></p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20renting%20MGP-005%20%28Stylish%202BR%20in%20the%20Business%20Hub%2C%20AED%2085%2C000%2Fyear%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="prop-card reveal" data-purpose="rent" data-type="apartment" data-area="jumeirah-beach-residence" data-beds="1">
+        <div class="prop-media">
+          <span class="badge rent">For Rent</span><span class="badge ref">MGP-010</span>
+          <img src="assets/img/prop-08.jpg" alt="Sea-breeze 1 bedroom apartment for rent by the beach in JBR" loading="lazy">
+        </div>
+        <div class="prop-body">
+          <h3>Sea-Breeze 1BR by the Beach</h3>
+          <p class="prop-loc">Jumeirah Beach Residence, Dubai</p>
+          <p class="prop-specs">1 Bed &middot; 2 Bath &middot; 760 sqft</p>
+          <p class="prop-price">AED 110,000 <span class="per">/year</span></p>
+          <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27m%20interested%20in%20renting%20MGP-010%20%28Sea-Breeze%201BR%20by%20the%20Beach%2C%20AED%20110%2C000%2Fyear%29.%20Please%20share%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="buy-rent" class="dark">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Two Paths, One Address</span>
+      <h2>Buying or Renting in Dubai?</h2>
+      <p>Whether you are planting roots or keeping things flexible, our advisors structure the move around your goal.</p>
+    </div>
+    <div class="split">
+      <div class="panel reveal">
+        <div class="tag">Ownership</div>
+        <h3>Buying in Dubai</h3>
+        <ul>
+          <li>Freehold ownership for all nationalities in prime areas</li>
+          <li>UAE Golden Visa from AED 2M property investment</li>
+          <li>Average gross rental yields of 5&ndash;7%</li>
+          <li>Zero annual property tax, zero capital gains tax</li>
+        </ul>
+        <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20talk%20to%20a%20buying%20advisor." target="_blank" rel="noopener">Talk to a Buying Advisor</a>
+      </div>
+      <div class="panel reveal">
+        <div class="tag">Flexibility</div>
+        <h3>Renting in Dubai</h3>
+        <ul>
+          <li>Flexible 12-month terms &mdash; 1 to 4 cheques</li>
+          <li>Ejari-registered contracts for full legal protection</li>
+          <li>No hidden commissions or surprise fees</li>
+          <li>Furnished and serviced options available</li>
+        </ul>
+        <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20talk%20to%20a%20leasing%20advisor." target="_blank" rel="noopener">Talk to a Leasing Advisor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Where Dubai Lives</span>
+      <h2>Explore Areas</h2>
+      <p>From marina promenades to palm-fringed beaches &mdash; find the community that fits your life.</p>
+    </div>
+    <div class="area-grid">
+      <a class="area-card reveal" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20explore%20properties%20in%20Dubai%20Marina." target="_blank" rel="noopener">
+        <img src="assets/img/area-marina.jpg" alt="Dubai Marina skyline at dusk" loading="lazy">
+        <div class="area-info"><h3>Dubai Marina</h3><p>Waterfront towers, yachts and the city&rsquo;s best dining promenade.</p><span class="from">From AED 550,000</span></div>
+      </a>
+      <a class="area-card reveal" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20explore%20properties%20in%20Downtown%20Dubai." target="_blank" rel="noopener">
+        <img src="assets/img/area-downtown.jpg" alt="Downtown Dubai with Burj Khalifa" loading="lazy">
+        <div class="area-info"><h3>Downtown Dubai</h3><p>Home of Burj Khalifa and Dubai Mall &mdash; the prestigious centre.</p><span class="from">From AED 1,200,000</span></div>
+      </a>
+      <a class="area-card reveal" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20explore%20properties%20on%20Palm%20Jumeirah." target="_blank" rel="noopener">
+        <img src="assets/img/area-palm.jpg" alt="Palm Jumeirah aerial view" loading="lazy">
+        <div class="area-info"><h3>Palm Jumeirah</h3><p>The world-famous palm island: villas, resorts, ultimate luxury.</p><span class="from">From AED 4,500,000</span></div>
+      </a>
+      <a class="area-card reveal" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20to%20explore%20properties%20in%20Jumeirah%20Village%20Circle." target="_blank" rel="noopener">
+        <img src="assets/img/area-jvc.jpg" alt="Jumeirah Village Circle residential community" loading="lazy">
+        <div class="area-info"><h3>Jumeirah Village Circle</h3><p>Dubai&rsquo;s value hotspot &mdash; highest rental yields for investors.</p><span class="from">From AED 450,000</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2>Full-Service Brokerage</h2>
+      <p>One team for the entire journey &mdash; from first viewing to final transfer.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal"><div class="num">01</div><h3>Buy</h3><p>Off-market access and honest numbers &mdash; we shortlist, negotiate and manage the transfer end-to-end.</p></div>
+      <div class="svc reveal"><div class="num">02</div><h3>Sell</h3><p>Professional photography, qualified buyers only, and pricing strategy that moves homes fast.</p></div>
+      <div class="svc reveal"><div class="num">03</div><h3>Leasing &amp; Management</h3><p>Tenant screening, Ejari, maintenance and rent collection &mdash; hands-free income for landlords.</p></div>
+      <div class="svc reveal"><div class="num">04</div><h3>Investment Advisory</h3><p>Yield maps, ROI modelling and Golden Visa guidance for building a Dubai portfolio.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="agents" class="dark">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">The People</span>
+      <h2>Our Agents</h2>
+      <p>RERA-certified consultants who answer their phones &mdash; and their clients&rsquo; questions.</p>
+    </div>
+    <div class="agent-grid">
+      <div class="agent-card reveal">
+        <img src="assets/img/agent-1.jpg" alt="Ahmed Khalidi, Senior Property Consultant" loading="lazy">
+        <div class="agent-body">
+          <h3>Ahmed Khalidi</h3>
+          <div class="role">Senior Property Consultant</div>
+          <p>English &middot; Arabic &middot; Urdu</p>
+          <span class="deals">120+ deals closed</span>
+        </div>
+      </div>
+      <div class="agent-card reveal">
+        <img src="assets/img/agent-2.jpg" alt="Sarah Mitchell, Luxury Sales Director" loading="lazy">
+        <div class="agent-body">
+          <h3>Sarah Mitchell</h3>
+          <div class="role">Luxury Sales Director</div>
+          <p>English &middot; French</p>
+          <span class="deals">210+ deals closed</span>
+        </div>
+      </div>
+      <div class="agent-card reveal">
+        <img src="assets/img/agent-3.jpg" alt="Bilal Ahmed, Leasing Specialist" loading="lazy">
+        <div class="agent-body">
+          <h3>Bilal Ahmed</h3>
+          <div class="role">Leasing Specialist</div>
+          <p>English &middot; Urdu &middot; Hindi</p>
+          <span class="deals">340+ deals closed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Client Words</span>
+      <h2>Trusted Across Borders</h2>
+      <p>Investors and homeowners from London to Mumbai trust us with their Dubai moves.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi reveal"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Marina Gate found me an off-market Marina unit 8% below market. Their numbers were honest and the transfer took eleven days. Flawless.&rdquo;</p><div class="who">James Whitfield<span>Investor, United Kingdom</span></div></div>
+      <div class="testi reveal"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;As a first-time buyer I had a hundred questions. Ahmed answered every one, negotiated hard for me, and never rushed me. I recommend them to everyone.&rdquo;</p><div class="who">Fatima Al Farsi<span>Homeowner, Dubai</span></div></div>
+      <div class="testi reveal"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;I buy from abroad and need people I can trust blindly. Three purchases, zero surprises, rental income from month one. That is why I keep coming back.&rdquo;</p><div class="who">Rohan Mehta<span>Investor, India</span></div></div>
+      <div class="testi reveal"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;They sold my villa in 19 days &mdash; above asking. Professional photos, serious buyers only, no time wasters. Worth every dirham of the fee.&rdquo;</p><div class="who">Khalid Mansour<span>Seller, Abu Dhabi</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Private Consultation</span>
+      <h2>Let&rsquo;s Talk About Your Dubai Move</h2>
+      <p>Buying, selling or leasing &mdash; message us on WhatsApp and an advisor will respond within minutes during working hours.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%27d%20like%20a%20consultation%20about%20Dubai%20property." target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+971501234567">Call +971 50 123 4567</a>
+      </div>
+      <div class="cta-meta">
+        <span>&#9993; <a href="mailto:hello@marinagateproperties.com">hello@marinagateproperties.com</a></span>
+        <span>&#9672; Office 2401, Marina Plaza, Dubai Marina, Dubai, UAE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="wordmark" href="#home"><span class="wm-main">MARINA GATE</span><span class="wm-sub">PROPERTIES</span></a>
+        <p>Dubai&rsquo;s trusted real estate brokerage &mdash; handpicked homes across the city&rsquo;s finest communities, for buyers, sellers and investors.</p>
+        <span class="rera">RERA ORN 28471 &middot; Licensed Brokerage, Dubai, UAE</span>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="foot-links">
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#buy-rent">Buy / Rent</a></li>
+          <li><a href="#areas">Areas</a></li>
+          <li><a href="#agents">Agents</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="foot-contact">
+          <li>&#9672; Office 2401, Marina Plaza,<br>Dubai Marina, Dubai, UAE</li>
+          <li>&#9742; <a href="tel:+971501234567">+971 50 123 4567</a></li>
+          <li>&#9993; <a href="mailto:hello@marinagateproperties.com">hello@marinagateproperties.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="container">&copy; <span id="yr">2026</span> Marina Gate Properties. All rights reserved.</div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/971501234567?text=Hello%20Marina%20Gate%20Properties%2C%20I%20have%20a%20question%20about%20a%20property." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 0C7.16 0 0 7.16 0 16c0 2.82.74 5.57 2.14 8L0 32l8.32-2.18A15.9 15.9 0 0 0 16 32c8.84 0 16-7.16 16-16S24.84 0 16 0zm0 29.1a13.1 13.1 0 0 1-6.7-1.84l-.48-.28-4.94 1.3 1.32-4.82-.31-.5A13.08 13.08 0 0 1 2.9 16C2.9 8.77 8.77 2.9 16 2.9S29.1 8.77 29.1 16 23.23 29.1 16 29.1zm7.2-9.76c-.4-.2-2.34-1.15-2.7-1.28-.36-.13-.63-.2-.89.2-.26.4-1.02 1.28-1.25 1.55-.23.26-.46.3-.85.1-.4-.2-1.67-.62-3.18-1.98-1.18-1.05-1.97-2.35-2.2-2.74-.23-.4-.02-.61.17-.81.17-.17.4-.46.6-.69.2-.23.26-.4.4-.66.13-.26.06-.5-.04-.7-.1-.2-.9-2.15-1.23-2.95-.32-.77-.65-.67-.89-.68h-.76c-.26 0-.69.1-1.05.5-.36.4-1.38 1.35-1.38 3.3 0 1.95 1.42 3.83 1.62 4.1.2.26 2.79 4.26 6.76 5.97.94.41 1.68.65 2.26.83.95.3 1.81.26 2.5.16.76-.11 2.34-.96 2.67-1.88.33-.92.33-1.71.23-1.88-.1-.17-.36-.26-.76-.46z"/></svg>
+</a>
+
+<script>
+(function(){
+  "use strict";
+
+  /* header on scroll */
+  var header=document.getElementById('siteHeader');
+  function onScroll(){ header.classList.toggle('scrolled', window.scrollY>40); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  /* mobile menu */
+  var burger=document.getElementById('burger'), nav=document.getElementById('mainNav');
+  burger.addEventListener('click', function(){ nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ nav.classList.remove('open'); }); });
+
+  /* reveal on scroll */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* hero video: desktop <-> mobile source swap */
+  var heroVideo=document.getElementById('heroVideo'),
+      heroSource=document.getElementById('heroSource'),
+      mq=window.matchMedia('(max-width: 768px)');
+  function playHero(){ var p=heroVideo.play(); if(p&&p.catch){ p.catch(function(){}); } }
+  function pickVideo(){
+    var want=mq.matches ? 'assets/video/hero-mobile.mp4' : 'assets/video/hero-desktop.mp4';
+    if(heroSource.getAttribute('src')!==want){
+      heroSource.setAttribute('src',want);
+      heroVideo.load();
+    }
+    playHero();
+  }
+  pickVideo();
+  if(mq.addEventListener){ mq.addEventListener('change',pickVideo); }
+  else if(mq.addListener){ mq.addListener(pickVideo); }
+  document.addEventListener('visibilitychange',function(){ if(!document.hidden){ playHero(); } });
+
+  /* search / filter */
+  var purpose='all';
+  var pills=document.querySelectorAll('.pill');
+  pills.forEach(function(p){
+    p.addEventListener('click',function(){
+      pills.forEach(function(x){x.classList.remove('active');});
+      p.classList.add('active');
+      purpose=p.getAttribute('data-val');
+    });
+  });
+
+  var form=document.getElementById('searchForm'),
+      msg=document.getElementById('resultMsg'),
+      reset=document.getElementById('resetFilters'),
+      cards=Array.prototype.slice.call(document.querySelectorAll('.prop-card'));
+
+  function applyFilters(){
+    var t=document.getElementById('fType').value,
+        a=document.getElementById('fArea').value,
+        b=document.getElementById('fBeds').value,
+        n=0, filtered=false;
+    if(purpose!=='all'||t!=='all'||a!=='all'||b!=='all'){ filtered=true; }
+    cards.forEach(function(c){
+      var d=c.dataset, ok=true;
+      if(purpose!=='all'&&d.purpose!==purpose){ ok=false; }
+      if(ok&&t!=='all'&&d.type!==t){ ok=false; }
+      if(ok&&a!=='all'&&d.area!==a){ ok=false; }
+      if(ok&&b!=='all'){
+        if(b==='4plus'){ if(parseInt(d.beds,10)<4){ ok=false; } }
+        else if(d.beds!==b){ ok=false; }
+      }
+      c.style.display=ok?'':'none';
+      if(ok){ n++; }
+    });
+    var total=cards.length;
+    if(filtered){
+      msg.textContent=n>0?('Showing '+n+' of '+total+' properties.'):('No properties match your filters \u2014 try widening your search.');
+      msg.classList.add('show');
+      reset.classList.add('show');
+    }else{
+      msg.classList.remove('show');
+      reset.classList.remove('show');
+    }
+    document.getElementById('properties').scrollIntoView({behavior:'smooth'});
+  }
+
+  form.addEventListener('submit',function(ev){ ev.preventDefault(); applyFilters(); });
+
+  reset.addEventListener('click',function(){
+    purpose='all';
+    pills.forEach(function(x){x.classList.toggle('active',x.getAttribute('data-val')==='all');});
+    document.getElementById('fType').value='all';
+    document.getElementById('fArea').value='all';
+    document.getElementById('fBeds').value='all';
+    cards.forEach(function(c){ c.style.display=''; });
+    msg.classList.remove('show');
+    reset.classList.remove('show');
+  });
+
+  /* footer year */
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
